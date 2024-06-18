@@ -1,0 +1,40 @@
+.Bcontainer {
+    margin-left: 20%;
+    display: flex;
+    background-color: rgb(224, 227, 51);
+    border-width: 1px;
+    border-style: dashed;
+    border-color: rgb(164, 25, 164);
+    width: 60%;
+}
+
+.navbar,
+.content {
+    padding: 2%;
+}
+ul {
+    list-style-type: none;
+}
+
+li a#vnavbar {
+    width: 100px;
+    box-shadow: 18px 0px 0px black;
+    background-color: aliceblue;
+    margin: 7%;
+    display: block;
+    color: blue;
+    padding: 5px 16px;
+}
+li a#vnavbar:hover {
+    cursor: pointer;
+    color: rgb(164, 25, 164);
+}
+.content {
+    margin-left: 10%;
+    color: rgb(128, 6, 128);
+}
+.border {
+    border-top: 1px rgb(164, 25, 164) dashed;
+    margin-bottom: 40%;
+    font-style: italic;
+}

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>TASK5</title>
+        <style>
+            table,
+            tr,
+            th,
+            td {
+                border: 1px solid rgb(0, 0, 0);
+                border-collapse: collapse;
+                padding: 1px;
+                text-align: left;
+            }
+
+            table {
+                margin-left: 25%;
+                margin-top: 6.4%;
+                width: 50%;
+            }
+
+            label#right {
+                font-weight: bold;
+            }
+
+            td#ethnus-container {
+                text-align: right;
+            }
+
+            button {
+                margin-top: 15px;
+                margin-left: 47%;
+            }
+
+            .tbox {
+                width: 98.4%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <table>
+                <tr>
+                    <td>
+                        <label id="right" for="fname">First Name</label>
+                    </td>
+                    <td>
+                        <input class="tbox" type="text" id="fname" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label id="right" for="lname">Last Name</label>
+                    </td>
+                    <td>
+                        <input class="tbox" type="text" id="lname" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label id="right" for="email">Email</label>
+                    </td>
+                    <td>
+                        <input class="tbox" type="text" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label id="right" for="password">Password</label>
+                    </td>
+                    <td>
+                        <input class="tbox" type="password" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label id="right" for="re-password"
+                            >Re-enter Password:</label
+                        >
+                    </td>
+                    <td>
+                        <input class="tbox" type="password" />
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="2">
+                        <label id="right" for="gender">Gender:</label>
+                    </td>
+                    <td>
+                        <input
+                            type="radio"
+                            value="male"
+                            id="gender"
+                            name="gender"
+                        />
+                        <label for="male">Male</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input
+                            type="radio"
+                            value="female"
+                            id="gender"
+                            name="gender"
+                        />
+                        <label for="female">Female</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label id="right" for="age">Age:</label>
+                    </td>
+                    <td>
+                        <input class="tbox" type="number" id="age" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label id="right" for="pno">Phone Number</label>
+                    </td>
+                    <td>
+                        <input type="number" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label id="right" for="address">Address</label>
+                    </td>
+                    <td>
+                        <textarea
+                            class="tbox"
+                            name="address"
+                            id="address"
+                            rows="5"
+                            cols="50"
+                        ></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label id="right" for="state">State</label>
+                    </td>
+                    <td>
+                        <select name="state" id="state">
+                            <option value="none">Choose your country</option>
+                            <option value="india">India</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label id="right" for="language">Languages known</label>
+                    </td>
+                    <td id="language">
+                        <input type="checkbox" id="language1" value="english" />
+                        <label for="language1">English</label>
+                        <input type="checkbox" id="language2" value="kannada" />
+                        <label for="language2">Kannada</label>
+                        <input type="checkbox" id="language3" value="hindi" />
+                        <label for="language3">Hindi</label>
+                        <input type="checkbox" id="language4" value="telugu" />
+                        <label for="language4">Telugu</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input
+                            type="checkbox"
+                            id="right"
+                            value="self_declaration"
+                            required
+                        />
+                        <label for="self_declaration"
+                            >Hereby I declare all the given details are
+                            true</label
+                        >
+                    </td>
+                </tr>
+                <tr>
+                    <td id="ethnus-container" colspan="2">
+                        <label id="ethnus" value="login">
+                            Log in to
+                            <a href="https://ethnus.com/">Ethnus</a>
+                            website
+                        </label>
+                    </td>
+                </tr>
+            </table>
+            <button>Register</button>
+        </div>
+    </body>
+</html>

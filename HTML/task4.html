@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>TASK4</title>
+        <style>
+            select {
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Registration Form</h2>
+        <form>
+            <table>
+                <tr>
+                    <td>Full Name:</td>
+                    <td><input type="text" name="fullName" value=" " /></td>
+                </tr>
+                <tr>
+                    <td>Username:</td>
+                    <td><input type="text" name="username" value="" /></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td>
+                        <input type="password" name="password" value="" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Re Password:</td>
+                    <td>
+                        <input type="password" name="rePassword" value="" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Address:</td>
+                    <td>
+                        <input type="text" name="address" value="" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>Age:</td>
+                    <td><input type="number" name="age" value="" /></td>
+                </tr>
+                <tr>
+                    <td>Gender:</td>
+                    <td>
+                        <select name="gender">
+                            <option value="">--Select--</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Save" />
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

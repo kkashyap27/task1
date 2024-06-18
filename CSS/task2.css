@@ -1,0 +1,44 @@
+.vertical-nav {
+    width: 200px;
+    background-color: #d6f5f5;
+    border: 1px solid black;
+}
+
+.vertical-nav a {
+    display: block;
+    color: blue;
+    padding: 12px;
+}
+
+.vertical-nav a.active {
+    background-color: orange;
+    color: white;
+}
+
+.vertical-nav a:hover:not(.active) {
+    background-color: #ddd;
+    color: black;
+}
+
+.horizontal-nav {
+    width: 400px;
+    background-color: #e0e0e0;
+    border: 1px solid black;
+}
+
+.horizontal-nav a {
+    display: inline-block;
+    color: blue;
+    padding: 12px 16px;
+    border-right: 1px solid #bbb;
+}
+
+.horizontal-nav a.active {
+    background-color: grey;
+    color: white;
+}
+
+.horizontal-nav a:hover:not(.active) {
+    background-color: #ddd;
+    color: black;
+}

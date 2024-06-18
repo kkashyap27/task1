@@ -1,0 +1,44 @@
+.sidenav {
+    height: 100%;
+    width: 60px;
+    position: fixed;
+    background-color: #111;
+    padding-top: 20px;
+}
+
+.sidenav:hover {
+    width: 150px;
+}
+
+.sidenav a {
+    padding: 16px 8px 16px 16px;
+    font-size: 18px;
+    color: white;
+    display: block;
+    margin: 5px 0;
+}
+
+.sidenav a.green {
+    background-color: #4caf50;
+}
+
+.sidenav a.blue {
+    background-color: #2196f3;
+}
+
+.sidenav a.red {
+    background-color: #f44336;
+}
+
+.sidenav a.gray {
+    background-color: #555;
+}
+
+.main {
+    margin-left: 60px;
+    padding: 0px 10px;
+}
+
+.sidenav:hover ~ .main {
+    margin-left: 200px;
+}

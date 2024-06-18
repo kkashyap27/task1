@@ -1,0 +1,14 @@
+table {
+    margin-left: 21%;
+    margin-top: 16.5%;
+    background-color: rgb(136, 225, 225);
+    width: 60%;
+}
+
+table,
+tr,
+th,
+td {
+    border-radius: 11px;
+    border: 1px solid rgb(14, 13, 13);
+}
